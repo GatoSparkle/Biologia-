@@ -9,85 +9,73 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #e8f5e9;
+      background-color: #f4f4f9;
       color: #333;
     }
     header {
       background-color: #2e7d32;
       color: white;
-      padding: 10px 20px;
+      padding: 20px;
       text-align: center;
-    }
-    nav {
-      background-color: #388e3c;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
     }
     section {
-      padding: 20px;
       max-width: 800px;
       margin: auto;
+      padding: 20px;
     }
-    footer {
-      background-color: #2e7d32;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+    article {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: white;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    article:hover {
+      transform: scale(1.02);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenidos a Biología Básica</h1>
-    <p>Aprende de forma fácil y divertida</p>
+    <h1>Biología Básica</h1>
+    <p>Explora los conceptos más importantes de la biología de forma sencilla y visual.</p>
   </header>
-  <nav>
-    <a href="#celulas">Células</a>
-    <a href="#genetica">Genética</a>
-    <a href="#ecosistemas">Ecosistemas</a>
-  </nav>
-  <section id="celulas">
-    <h2>¿Qué es una célula?</h2>
-    <p>La célula es la unidad básica de la vida. Todos los organismos vivos están formados por una o más células.</p>
+
+  <section>
+    <!-- Introducción a Células -->
+    <article>
+      <h2><a href="celulas.html">Células</a></h2>
+      <p>Descubre la unidad básica de la vida. Aprende sobre sus partes, funciones y cómo las células vegetales y animales son diferentes.</p>
+    </article>
+
+    <!-- Introducción a Genética -->
+    <article>
+      <h2><a href="genetica.html">Genética</a></h2>
+      <p>Adéntrate en el mundo del ADN, los genes y los cromosomas. Entiende cómo se heredan las características de una generación a otra.</p>
+    </article>
+
+    <!-- Introducción a Ecosistemas -->
+    <article>
+      <h2><a href="ecosistemas.html">Ecosistemas</a></h2>
+      <p>Explora cómo los organismos interactúan entre sí y con su entorno físico en diferentes tipos de ecosistemas.</p>
+    </article>
   </section>
-  <section id="genetica">
-    <h2>Genética Básica</h2>
-    <p>La genética estudia cómo se transmiten las características de padres a hijos a través de los genes.</p>
-  </section>
-  <section id="ecosistemas">
-    <h2>Ecosistemas</h2>
-    <p>Un ecosistema es una comunidad de organismos que interactúan con su entorno físico.</p>
-  </section>
-  <footer>
-    © 2024 Biología Básica. Todos los derechos reservados.
-  </footer>
 </body>
 </html>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-section {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-@media (max-width: 768px) {
-  section {
-    padding: 10px;
-  }
-}
