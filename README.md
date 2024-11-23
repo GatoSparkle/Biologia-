@@ -79,3 +79,70 @@
   </section>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Células</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Células</h1>
+    <p>La base de la vida</p>
+  </header>
+
+  <section>
+    <h2>¿Qué es una célula?</h2>
+    <p>La célula es la unidad básica de la vida en todos los organismos. Pueden ser tan pequeñas que solo se ven con un microscopio, pero realizan funciones vitales como la obtención de energía, el crecimiento y la reproducción.</p>
+
+    <h3>Tipos de células</h3>
+    <p>Existen dos tipos principales de células: <strong>procariotas</strong> (como las bacterias) y <strong>eucariotas</strong> (células animales y vegetales).</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Animal_cell_structure_en.svg" alt="Estructura de una célula animal">
+
+    <h3>Partes de la célula</h3>
+    <p>Las células contienen varias partes importantes:</p>
+    <ul>
+      <li><strong>Núcleo:</strong> Controla las actividades de la célula y almacena el ADN.</li>
+      <li><strong>Membrana celular:</strong> Protege la célula y regula lo que entra y sale.</li>
+      <li><strong>Mitocondrias:</strong> Generan la energía necesaria para la célula.</li>
+    </ul>
+
+    <iframe src="https://www.youtube.com/embed/URUJD5NEXC8" title="Video sobre células"></iframe>
+  </section>
+</body>
+</html>
