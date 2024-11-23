@@ -76,3 +76,18 @@
   </footer>
 </body>
 </html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 10px;
+  }
+}
